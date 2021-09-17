@@ -1,0 +1,27 @@
+.hero {
+  background-image: url(../../images/hero.jpg);
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+.hero > * {
+  font-size: xx-large;
+  padding-left: 0.5em;
+  color: snow;
+}
+.hero > h1 {
+  margin-top: 1.5em;
+  font-size: 3em;
+}
+.hero > h2 {
+  margin-left: 2em;
+}
+.hero > hr {
+  width: 150px;
+}
