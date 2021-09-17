@@ -1,0 +1,11 @@
+#social-container {
+  background-color: var(--eerie-black);
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+#linkdin,
+#github {
+  fill: snow;
+  margin: 0.5em;
+}

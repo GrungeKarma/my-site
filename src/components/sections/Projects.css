@@ -1,6 +1,7 @@
 #greater-project-area {
   width: 100vw;
   background-color: var(--pewter-blue);
+  padding-bottom: 1em;
 }
 #greater-project-area > h2 {
   color: var(--eerie-black);
