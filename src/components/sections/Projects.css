@@ -1,5 +1,6 @@
 #greater-project-area {
   width: 100vw;
+  max-width: 100%;
   background-color: var(--pewter-blue);
   padding-bottom: 1em;
 }
