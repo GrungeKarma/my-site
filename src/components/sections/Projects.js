@@ -1,4 +1,5 @@
 
+import FlexArea from '../UI/FlexArea';
 import './Projects.css';
 
 
@@ -7,7 +8,7 @@ const Project = (props) => {
     <div id="greater-project-area">
       <h2>Projects</h2>
       <hr />
-      <div id="project-area">
+      <FlexArea>
 
 
         {props.projects.map(target => {
@@ -22,7 +23,7 @@ const Project = (props) => {
         })}
 
 
-      </div>
+      </FlexArea>
     </div>
   );
 
