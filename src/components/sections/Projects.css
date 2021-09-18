@@ -46,6 +46,15 @@
   text-indent: 1em;
   padding-bottom: 0.25em;
 }
+#source-code {
+  fill: rgba(255, 250, 250, 0.767);
+  display: block;
+  margin: auto;
+  padding-bottom: 0.2rem;
+}
+#source-code :hover {
+  fill: var(--sea-green-crayola);
+}
 @media (max-width: 961px) {
   #greater-project-area > * {
     margin: 0 5% 0 5%;

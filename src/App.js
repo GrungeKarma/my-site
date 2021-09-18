@@ -38,6 +38,8 @@ function App() {
       <Projects projects={projectArr} />
       <Social />
       <Footer />
+      <h1>monkey</h1>
+
     </div>
   );
 }
