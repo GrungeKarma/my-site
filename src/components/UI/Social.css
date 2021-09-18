@@ -9,3 +9,9 @@
   fill: snow;
   margin: 0.5em;
 }
+#linkdin :hover {
+  fill: var(--sea-green-crayola);
+}
+#github :hover {
+  fill: var(--sea-green-crayola);
+}
