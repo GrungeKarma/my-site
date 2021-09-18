@@ -14,15 +14,6 @@
   margin: 0 15% 0 15%;
   border-color: var(--eerie-black);
 }
-#project-item > h2 {
-  text-align: center;
-  padding: 0.25em 0 0.5em 0;
-  font-size: 2em;
-}
-#project-item > p {
-  text-indent: 1em;
-  padding-bottom: 0.25em;
-}
 
 #project-area {
   display: flex;
@@ -46,7 +37,16 @@
   color: var(--eerie-black);
   margin: 0 0.25em 0 0.25em;
 }
-#project-item > @media (max-width: 961px) {
+#project-item > h2 {
+  text-align: center;
+  padding: 0.25em 0 0.5em 0;
+  font-size: 2em;
+}
+#project-item > p {
+  text-indent: 1em;
+  padding-bottom: 0.25em;
+}
+@media (max-width: 961px) {
   #greater-project-area > * {
     margin: 0 5% 0 5%;
   }
