@@ -30,6 +30,14 @@
   font-size: 80px;
 }
 
+@media (max-width: 961px) {
+  #link-list > li {
+    display: inline-flex;
+    margin-right: 1em;
+    font-size: 10px;
+  }
+}
+
 @keyframes bounce {
   0%,
   20%,
