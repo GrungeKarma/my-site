@@ -6,12 +6,39 @@
 }
 #linkdin,
 #github {
-  fill: snow;
+  fill: var(--pewter-blue);
   margin: 0.5em;
 }
 #linkdin :hover {
   fill: var(--sea-green-crayola);
+  animation: bounce1 1s;
 }
 #github :hover {
   fill: var(--sea-green-crayola);
+  animation: bounce1 1s;
+}
+
+.link > a:hover {
+  text-decoration: underline;
+  color: var(--sea-green-crayola);
+}
+
+@keyframes bounce1 {
+  0%,
+  20%,
+  60%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  40% {
+    -webkit-transform: translateX(2.5px);
+    transform: translateX(2.5px);
+  }
+
+  80% {
+    -webkit-transform: translateX(0.5px);
+    transform: translateX(0.5px);
+  }
 }
