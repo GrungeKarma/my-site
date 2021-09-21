@@ -6,7 +6,7 @@ import './Projects.css';
 const Project = (props) => {
   return (
     <div id="greater-project-area">
-      <h2>Projects</h2>
+      <h2 id="projects">Projects</h2>
       <hr />
       <FlexArea>
 

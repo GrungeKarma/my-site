@@ -1,7 +1,10 @@
 import FlexArea from './FlexArea';
 import './Hero.css';
+import FormModal from '../sections/FormModal';
 
-const Hero = () => {
+
+const Hero = (props) => {
+
 
   return (
     <div className="hero"  >
@@ -10,7 +13,7 @@ const Hero = () => {
 
       <hr />
       <FlexArea>
-        <button>Contact Me</button>
+        <FormModal />
       </FlexArea>
     </div>
   );

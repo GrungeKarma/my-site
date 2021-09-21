@@ -4,9 +4,6 @@ import Hero from './components/UI/Hero';
 import Bio from './components/sections/Bio';
 import Projects from './components/sections/Projects';
 import './App.css';
-import Social from './components/UI/Social';
-
-
 
 const projectArr = [
   {
@@ -36,7 +33,7 @@ function App() {
       <Hero />
       <Bio />
       <Projects projects={projectArr} />
-      <Social />
+
       <Footer />
     </div>
   );

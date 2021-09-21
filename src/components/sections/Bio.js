@@ -3,7 +3,7 @@ import './Bio.css';
 const Bio = () => {
   return (
     <div id="bio">
-      <h2>About Me</h2>
+      <h2 id="about">About Me</h2>
       <hr />
       <div id="dual-flex">
         <div id="prof">

@@ -1,0 +1,26 @@
+.Modal {
+  position: absolute;
+  top: 90px;
+  left: 80px;
+  right: 80px;
+  bottom: 80px;
+  background-color: #495159ff;
+  border-color: rgba(38, 38, 38, 0);
+  border-radius: 12px;
+}
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(38, 38, 38, 0.812);
+}
+@media (max-width: 961px) {
+  .Modal {
+    top: 90px;
+    left: 10px;
+    right: 10px;
+    bottom: 90px;
+  }
+}
