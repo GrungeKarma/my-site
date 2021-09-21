@@ -1,12 +1,14 @@
+#greater-bio-area {
+  background-color: var(--eerie-black);
+  border-bottom: solid 4px var(--charcoal);
+}
 #bio {
   background-color: var(--eerie-black);
   text-align: center;
-  border-top: solid 4px var(--charcoal);
-  border-bottom: solid 4px var(--charcoal);
+  margin: 0 15% 0 15%;
 }
 #bio > * {
   color: snow;
-  margin: 0 15% 0 15%;
 }
 
 #bio > h2 {

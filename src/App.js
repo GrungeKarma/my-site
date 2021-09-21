@@ -4,6 +4,7 @@ import Hero from './components/UI/Hero';
 import Bio from './components/sections/Bio';
 import Projects from './components/sections/Projects';
 import './App.css';
+import SkillsAndTech from './components/sections/SkillsAndTech';
 
 const projectArr = [
   {
@@ -31,9 +32,10 @@ function App() {
     <div className="App">
       <NavBar />
       <Hero />
+      <SkillsAndTech />
       <Bio />
-      <Projects projects={projectArr} />
 
+      <Projects projects={projectArr} />
       <Footer />
     </div>
   );

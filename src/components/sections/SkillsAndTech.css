@@ -1,0 +1,44 @@
+#greater-skills-area {
+  width: 100vw;
+  max-width: 100%;
+  background-color: var(--charcoal);
+  text-align: center;
+  padding-bottom: 1em;
+  border-top: solid 4px var(--pewter-blue);
+  border-bottom: solid 4px var(--pewter-blue);
+}
+
+#skills-tech {
+  color: snow;
+  text-align: center;
+  padding: 1em 0 0.5em 0;
+  font-size: 2em;
+}
+#greater-skills-area > hr {
+  margin: 0 15% 0 15%;
+  border-color: white;
+  margin-bottom: 1em;
+}
+#skills-tech-list {
+  grid-template-columns: 20% 20% 20%;
+  display: grid;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#skills-tech-list > * {
+  color: snow;
+  width: max-content;
+  list-style-type: none;
+  text-align: center;
+}
+.skill-item {
+  margin: auto;
+}
+
+@media (max-width: 961px) {
+  #greater-skills-area > * {
+    margin: 0 5% 0 5%;
+  }
+}
