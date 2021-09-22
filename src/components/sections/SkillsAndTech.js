@@ -2,27 +2,10 @@ import codingLanguages from '../../images/languages.png';
 
 import './SkillsAndTech.css';
 
-const skillsArr = [
-  { key: Math.random().toString(), item: 'Node.js' },
-  { key: Math.random().toString(), item: 'Express' },
-  { key: Math.random().toString(), item: 'Navigo' },
-  { key: Math.random().toString(), item: 'Axios' },
-  { key: Math.random().toString(), item: 'RESTful APIs' },
-  { key: Math.random().toString(), item: 'GitHub / Git' },
-  { key: Math.random().toString(), item: 'Jira / Trello' },
-  { key: Math.random().toString(), item: 'Netlify' },
-  { key: Math.random().toString(), item: 'Vercel' },
-  { key: Math.random().toString(), item: 'Heroku' },
-  { key: Math.random().toString(), item: 'Puppeteer' },
-  { key: Math.random().toString(), item: 'Jest' },
-  { key: Math.random().toString(), item: 'VS Code' },
-  { key: Math.random().toString(), item: 'Tailwind CSS' },
-  { key: Math.random().toString(), item: 'Yarn' },
-
-]
 
 
-const SkillsAndTech = () => {
+
+const SkillsAndTech = ({ skillsArr }) => {
   return (
     <>
 

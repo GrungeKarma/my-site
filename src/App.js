@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import NavBar from './components/UI/NavBar';
 import Footer from './components/UI/Footer';
 import Hero from './components/UI/Hero';
@@ -24,15 +25,37 @@ const projectArr = [
     sourceCode: 'https://github.com/GrungeKarma/danteIpsum'
   },
 
+];
+
+const skillsArr = [
+  { key: Math.random().toString(), item: 'Node.js' },
+  { key: Math.random().toString(), item: 'Express' },
+  { key: Math.random().toString(), item: 'Navigo' },
+  { key: Math.random().toString(), item: 'Axios' },
+  { key: Math.random().toString(), item: 'RESTful APIs' },
+  { key: Math.random().toString(), item: 'GitHub / Git' },
+  { key: Math.random().toString(), item: 'Jira / Trello' },
+  { key: Math.random().toString(), item: 'Netlify' },
+  { key: Math.random().toString(), item: 'Vercel' },
+  { key: Math.random().toString(), item: 'Heroku' },
+  { key: Math.random().toString(), item: 'Puppeteer' },
+  { key: Math.random().toString(), item: 'Jest' },
+  { key: Math.random().toString(), item: 'VS Code' },
+  { key: Math.random().toString(), item: 'Tailwind CSS' },
+  { key: Math.random().toString(), item: 'Yarn' },
+
 ]
 
 
+
+
 function App() {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
   return (
     <div className="App">
       <NavBar />
-      <Hero />
-      <SkillsAndTech />
+      <Hero modalIsOpen={modalIsOpen} setModalIsOpen={setModalIsOpen} />
+      <SkillsAndTech skillsArr={skillsArr} />
       <Bio />
 
       <Projects projects={projectArr} />

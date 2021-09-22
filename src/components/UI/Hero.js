@@ -3,7 +3,7 @@ import './Hero.css';
 import FormModal from '../sections/FormModal';
 
 
-const Hero = (props) => {
+const Hero = ({ modalIsOpen, setModalIsOpen }) => {
 
 
   return (
@@ -13,7 +13,7 @@ const Hero = (props) => {
 
       <hr />
       <FlexArea>
-        <FormModal />
+        <FormModal modalIsOpen={modalIsOpen} setModalIsOpen={setModalIsOpen} />
       </FlexArea>
     </div>
   );

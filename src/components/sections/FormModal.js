@@ -1,12 +1,12 @@
 import './FormModal.css';
-import React, { useState } from 'react';
+
 import Modal from 'react-modal';
 import FlexArea from '../UI/FlexArea';
 
 Modal.setAppElement('#root');
 
-const FormModal = () => {
-  const [modalIsOpen, setModalIsOpen] = useState(false);
+const FormModal = ({ modalIsOpen, setModalIsOpen }) => {
+
 
   return (
     <>
