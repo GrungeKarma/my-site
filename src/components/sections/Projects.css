@@ -31,7 +31,7 @@
   background: linear-gradient(
     to bottom left,
     rgba(195, 243, 214, 0.281),
-    40%,
+    20%,
     var(--eerie-black)
   );
   width: 480px;

@@ -1,7 +1,8 @@
 import './FormModal.css';
 
 import Modal from 'react-modal';
-import FlexArea from '../UI/FlexArea';
+
+import Form from './Form';
 
 Modal.setAppElement('#root');
 
@@ -16,14 +17,11 @@ const FormModal = ({ modalIsOpen, setModalIsOpen }) => {
         onRequestClose={() => setModalIsOpen(false)}
         className="Modal"
         overlayClassName="Overlay"
-
       >
-        <FlexArea>
-          <h1>title</h1>
-        </FlexArea>
+        <h1 id="form-title">Contact Me</h1>
+        <Form />
       </Modal>
     </>
-
   );
 }
 export default FormModal;

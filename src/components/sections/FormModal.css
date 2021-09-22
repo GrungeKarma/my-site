@@ -1,15 +1,16 @@
 .Modal {
   position: absolute;
-  top: 200px;
-  left: 20vw;
-  right: 20vw;
-  bottom: 200px;
-  background-color: #495159ff;
+  width: 350px;
+  height: 490px;
+  background-color: var(--eerie-black);
   border-color: rgba(38, 38, 38, 0);
   border-radius: 12px;
+  margin: auto;
+  border: 2px solid var(--charcoal);
 }
 .Overlay {
   position: fixed;
+
   top: 0;
   left: 0;
   right: 0;
@@ -23,4 +24,8 @@
     right: 10px;
     bottom: 90px;
   }
+}
+#form-title {
+  text-align: center;
+  padding-top: 0.25em;
 }
