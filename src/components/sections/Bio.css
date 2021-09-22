@@ -1,11 +1,13 @@
 #greater-bio-area {
   background-color: var(--eerie-black);
-  border-bottom: solid 4px var(--charcoal);
+  border-bottom: solid 4px var(--pewter-blue);
+  width: 100vw;
+  max-width: 100%;
 }
 #bio {
   background-color: var(--eerie-black);
   text-align: center;
-  margin: 0 15% 0 15%;
+  margin: 0 5% 0 5%;
 }
 #bio > * {
   color: snow;

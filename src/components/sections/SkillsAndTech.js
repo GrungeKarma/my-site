@@ -1,4 +1,4 @@
-
+import codingLanguages from '../../images/languages.png';
 
 import './SkillsAndTech.css';
 
@@ -7,7 +7,7 @@ const skillsArr = [
   { key: Math.random().toString(), item: 'Express' },
   { key: Math.random().toString(), item: 'Navigo' },
   { key: Math.random().toString(), item: 'Axios' },
-  { key: Math.random().toString(), item: 'RESTful API’s' },
+  { key: Math.random().toString(), item: 'RESTful APIs' },
   { key: Math.random().toString(), item: 'GitHub / Git' },
   { key: Math.random().toString(), item: 'Jira / Trello' },
   { key: Math.random().toString(), item: 'Netlify' },
@@ -28,7 +28,8 @@ const SkillsAndTech = () => {
 
       <div id="greater-skills-area">
         <h2 id="skills-tech">Skills/Tech</h2>
-        <hr id="stubborn" />
+        <hr />
+        <img id='languages' src={codingLanguages} alt="" />
         <div id="grid-area">
           <ul id="skills-tech-list">
             {

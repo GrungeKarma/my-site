@@ -1,9 +1,9 @@
 .Modal {
   position: absolute;
-  top: 90px;
-  left: 80px;
-  right: 80px;
-  bottom: 80px;
+  top: 200px;
+  left: 20vw;
+  right: 20vw;
+  bottom: 200px;
   background-color: #495159ff;
   border-color: rgba(38, 38, 38, 0);
   border-radius: 12px;
@@ -16,7 +16,7 @@
   bottom: 0;
   background-color: rgba(38, 38, 38, 0.812);
 }
-@media (max-width: 961px) {
+@media (max-width: 1000px) {
   .Modal {
     top: 90px;
     left: 10px;
