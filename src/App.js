@@ -24,7 +24,6 @@ const projectArr = [
     liveLocation: 'https://dante-ipsum.herokuapp.com/',
     sourceCode: 'https://github.com/GrungeKarma/danteIpsum'
   },
-
 ];
 
 const skillsArr = [
@@ -43,21 +42,17 @@ const skillsArr = [
   { key: Math.random().toString(), item: 'VS Code' },
   { key: Math.random().toString(), item: 'Tailwind CSS' },
   { key: Math.random().toString(), item: 'Yarn' },
-
 ]
-
-
-
 
 function App() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
+
   return (
     <div className="App">
       <NavBar />
       <Hero modalIsOpen={modalIsOpen} setModalIsOpen={setModalIsOpen} />
-      <SkillsAndTech skillsArr={skillsArr} />
       <Bio />
-
+      <SkillsAndTech skillsArr={skillsArr} />
       <Projects projects={projectArr} />
       <Footer />
     </div>

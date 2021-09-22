@@ -4,7 +4,6 @@
   background-color: var(--charcoal);
   text-align: center;
   padding-bottom: 1em;
-  border-top: solid 4px var(--pewter-blue);
   border-bottom: solid 4px var(--pewter-blue);
 }
 #languages {
