@@ -5,8 +5,9 @@ function NavBar() {
     <div className="nav-bar">
       <ul id="link-list">
         <li className="link"><a href="#about">About</a></li>
+        <li className="link"><a href="#skills-tech">Skills/Tech</a></li>
         <li className="link"><a href="#projects">Projects</a></li>
-        <li className="link"><a href="https://example.com/">Home</a></li>
+
       </ul>
     </div>
   );
