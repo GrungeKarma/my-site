@@ -13,9 +13,7 @@ const SkillsAndTech = ({ skillsArr }) => {
           {skillsArr.map((target) => {
             console.log(target);
             return (
-              <span className="skill-item">
-                {target.item}
-              </span>
+              <span className="skill-item">{target.item}</span>
             );
           })}
         </ul>
