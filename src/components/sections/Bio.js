@@ -20,16 +20,7 @@ const Bio = () => {
           <div id="pers">
             <h3>Personal</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing
-              elit. Debitis est, laudantium dolore, odit inventore
-              et cupiditate veritatis repellendus assumenda
-              facilis architecto totam aliquam quibusdam earum
-              rerum, harum ipsam. Quibusdam, veniam. Nobis
-              voluptatem amet aliquid aperiam, provident nulla
-              distinctio accusamus tempora nihil pariatur
-              exercitationem, molestias quisquam quam quibusdam?
-              Error, vitae! Officiis, ipsa. Id placeat cumque
-              earum et maxime, ullam officia quia.
+              I am a Historian by education and Programer by passion. As a Former Historian, I am detailed oriented and always driven to learn more. In my free time, I enjoy working on small Arduino projects, 3d printing, and playing guitar. I am also a proud father of one son. My fascination with coding goes beyond professional aspiration. I am truly fascinated by technology as a whole and learning to manipulate it gives me a deep sense of satisfaction.
             </p>
           </div>
         </div>
