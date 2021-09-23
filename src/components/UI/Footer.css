@@ -1,17 +1,17 @@
 .flex-container {
-  position: fixed;
-  display: flex;
-  width: 100vw;
-  max-width: 100%;
-  align-items: center;
-  justify-content: flex-end;
-  background-color: var(--eerie-black);
-  bottom: 0;
-  border-top: solid 4px var(--charcoal);
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    max-width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: var(--eerie-black);
+    bottom: 0;
+    border-top: solid 4px var(--charcoal);
 }
 #footer-text {
-  padding-right: 0.5em;
-  background-color: var(--eerie-black);
-  width: 100rem;
-  text-align: right;
+    padding-right: 0.5em;
+    background-color: var(--eerie-black);
+    width: 100rem;
+    text-align: right;
 }

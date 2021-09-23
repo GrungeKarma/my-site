@@ -1,66 +1,66 @@
 #greater-project-area {
-  width: 100vw;
-  max-width: 100%;
-  background-color: var(--eerie-black);
-  padding-bottom: 4em;
+    width: 100vw;
+    max-width: 100%;
+    background-color: var(--eerie-black);
+    padding-bottom: 4em;
 }
 
 #greater-project-area > h2 {
-  color: snow;
-  text-align: center;
-  padding: 1em 0 0.5em 0;
-  font-size: 2em;
+    color: snow;
+    text-align: center;
+    padding: 1em 0 0.5em 0;
+    font-size: 2em;
 }
 #greater-project-area > hr {
-  margin: 0 15% 0 15%;
-  border-color: snow;
+    margin: 0 15% 0 15%;
+    border-color: snow;
 }
 
 #project-area {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  margin: 0 15% 0 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 15% 0 15%;
 }
 #project-item {
-  margin-top: 1em;
-  border-bottom: 3px solid rgba(135, 160, 178, 0.811);
-  border-left: 2px solid rgba(135, 160, 178, 0.811);
+    margin-top: 1em;
+    border-bottom: 3px solid rgba(135, 160, 178, 0.811);
+    border-left: 2px solid rgba(135, 160, 178, 0.811);
 
-  background: linear-gradient(
-    to bottom left,
-    rgba(135, 160, 178, 0.811),
-    20%,
-    var(--eerie-black)
-  );
-  width: 480px;
-  border-radius: 4px;
+    background: linear-gradient(
+        to bottom left,
+        rgba(135, 160, 178, 0.811),
+        20%,
+        var(--eerie-black)
+    );
+    width: 480px;
+    border-radius: 4px;
 }
 #project-item > * {
-  color: snow;
-  margin: 0 0.25em 0 0.25em;
+    color: snow;
+    margin: 0 0.25em 0 0.25em;
 }
 #project-item > h2 {
-  text-align: center;
-  padding: 0.25em 0 0.5em 0;
-  font-size: 2em;
+    text-align: center;
+    padding: 0.25em 0 0.5em 0;
+    font-size: 2em;
 }
 #project-item > p {
-  text-indent: 1em;
-  padding-bottom: 0.25em;
+    text-indent: 1em;
+    padding-bottom: 0.25em;
 }
 #source-code {
-  fill: #87a0b2ff;
-  display: block;
-  margin: auto;
-  padding-bottom: 0.2rem;
+    fill: #87a0b2ff;
+    display: block;
+    margin: auto;
+    padding-bottom: 0.2rem;
 }
 #source-code :hover {
-  fill: var(--sea-green-crayola);
+    fill: var(--sea-green-crayola);
 }
 @media (max-width: 961px) {
-  #greater-project-area > * {
-    margin: 0 5% 0 5%;
-  }
+    #greater-project-area > * {
+        margin: 0 5% 0 5%;
+    }
 }

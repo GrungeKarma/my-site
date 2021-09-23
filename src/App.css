@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&display=swap');
 * {
-  font-size: x-large;
-  color: var(--pewter-blue);
-  font-family: 'Alumni Sans', sans-serif;
-  --sea-green-crayola: #0ff4c6ff;
-  --sizzling-red: #ff595eff;
-  --charcoal: #495159ff;
-  --pewter-blue: #87a0b2ff;
-  --eerie-black: #262626ff;
+    font-size: x-large;
+    color: var(--pewter-blue);
+    font-family: 'Alumni Sans', sans-serif;
+    --sea-green-crayola: #0ff4c6ff;
+    --sizzling-red: #ff595eff;
+    --charcoal: #495159ff;
+    --pewter-blue: #87a0b2ff;
+    --eerie-black: #262626ff;
 }
 html {
-  scroll-padding-top: 76px;
-  scroll-padding-bottom: 59px; /* height of sticky header */
+    scroll-padding-top: 76px;
+    scroll-padding-bottom: 59px; /* height of sticky header */
 }
 .app {
-  background-color: rgba(64, 64, 64, 0.17);
+    background-color: rgba(64, 64, 64, 0.17);
 }

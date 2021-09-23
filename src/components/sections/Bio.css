@@ -1,63 +1,63 @@
 #greater-bio-area {
-  background-color: var(--eerie-black);
-  border-bottom: solid 4px var(--pewter-blue);
-  width: 100vw;
-  max-width: 100%;
+    background-color: var(--eerie-black);
+    border-bottom: solid 4px var(--pewter-blue);
+    width: 100vw;
+    max-width: 100%;
 }
 #bio {
-  background-color: var(--eerie-black);
-  text-align: center;
-  margin: 0 5% 0 5%;
+    background-color: var(--eerie-black);
+    text-align: center;
+    margin: 0 5% 0 5%;
 }
 #bio > * {
-  color: snow;
+    color: snow;
 }
 
 #bio > h2 {
-  padding: 1em 0 0.5em 0;
-  font-size: 2em;
+    padding: 1em 0 0.5em 0;
+    font-size: 2em;
 }
 #bio > p {
-  padding-top: 0.25em;
+    padding-top: 0.25em;
 }
 #dual-flex {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
 }
 #prof {
-  width: 20rem;
-  padding-bottom: 1em;
+    width: 20rem;
+    padding-bottom: 1em;
 }
 #prof > p {
-  text-indent: 1em;
-  text-align: left;
+    text-indent: 1em;
+    text-align: left;
 }
 #prof > * {
-  color: snow;
+    color: snow;
 }
 #pers > * {
-  color: snow;
+    color: snow;
 }
 #pers {
-  width: 20rem;
-  padding-bottom: 1em;
+    width: 20rem;
+    padding-bottom: 1em;
 }
 #pers > p {
-  text-indent: 1em;
-  text-align: left;
+    text-indent: 1em;
+    text-align: left;
 }
 #prof > h3 {
-  padding: 1em 0 0.5em 0;
-  font-size: 1.5em;
+    padding: 1em 0 0.5em 0;
+    font-size: 1.5em;
 }
 #pers > h3 {
-  padding: 1em 0 0.5em 0;
-  font-size: 1.5em;
+    padding: 1em 0 0.5em 0;
+    font-size: 1.5em;
 }
 @media (max-width: 961px) {
-  #bio > * {
-    margin: 0 5% 0 5%;
-  }
+    #bio > * {
+        margin: 0 5% 0 5%;
+    }
 }

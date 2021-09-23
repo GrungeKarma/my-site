@@ -1,38 +1,38 @@
 .hero {
-  background-image: url(../../images/hero.jpg);
-  width: 100vw;
-  height: 100vh;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
+    background-image: url(../../images/hero.jpg);
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
 }
 .hero > h1,
 h2 {
-  font-size: xx-large;
-  padding-left: 0.5em;
-  color: snow;
+    font-size: xx-large;
+    padding-left: 0.5em;
+    color: snow;
 }
 .hero > h1 {
-  margin-top: 3em;
-  font-size: 3em;
+    margin-top: 3em;
+    font-size: 3em;
 }
 .hero > h2 {
-  margin-left: 2em;
+    margin-left: 2em;
 }
 .hero > hr {
-  width: 150px;
+    width: 150px;
 }
 .hero > #flex-area > button {
-  margin-top: 200px;
-  width: 7rem;
-  padding: 0.25rem;
-  background-color: rgba(0, 0, 0, 0.164);
-  color: snow;
-  border-radius: 4px;
+    margin-top: 200px;
+    width: 7rem;
+    padding: 0.25rem;
+    background-color: rgba(0, 0, 0, 0.164);
+    color: snow;
+    border-radius: 4px;
 }
 @media (max-width: 961px) {
 }

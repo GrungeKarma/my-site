@@ -1,49 +1,49 @@
 #greater-skills-area {
-  width: 100vw;
-  max-width: 100%;
-  background-color: var(--charcoal);
-  text-align: center;
-  padding-bottom: 1em;
-  border-bottom: solid 4px var(--pewter-blue);
+    width: 100vw;
+    max-width: 100%;
+    background-color: var(--charcoal);
+    text-align: center;
+    padding-bottom: 1em;
+    border-bottom: solid 4px var(--pewter-blue);
 }
 #languages {
-  width: 300px;
-  height: 95px;
-  margin-left: -10px;
-  margin-top: -20px;
-  margin-bottom: -20px;
+    width: 300px;
+    height: 95px;
+    margin-left: -10px;
+    margin-top: -20px;
+    margin-bottom: -20px;
 }
 #skills-tech {
-  color: snow;
-  text-align: center;
-  padding: 1em 0 0.5em 0;
-  font-size: 2em;
+    color: snow;
+    text-align: center;
+    padding: 1em 0 0.5em 0;
+    font-size: 2em;
 }
 #greater-skills-area > hr {
-  margin: 0 15% 0 15%;
-  border-color: white;
-  margin-bottom: 0.5em;
+    margin: 0 15% 0 15%;
+    border-color: white;
+    margin-bottom: 0.5em;
 }
 #skills-tech-list {
-  grid-template-columns: 20% 20% 20%;
-  display: grid;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 100%;
+    grid-template-columns: 20% 20% 20%;
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 #skills-tech-list > * {
-  color: snow;
-  width: max-content;
-  list-style-type: none;
-  text-align: center;
+    color: snow;
+    width: max-content;
+    list-style-type: none;
+    text-align: center;
 }
 .skill-item {
-  margin: auto;
+    margin: auto;
 }
 
 @media (max-width: 961px) {
-  #greater-skills-area > * {
-    margin: 0 5% 0 5%;
-  }
+    #greater-skills-area > * {
+        margin: 0 5% 0 5%;
+    }
 }
