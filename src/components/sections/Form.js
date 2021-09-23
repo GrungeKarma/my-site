@@ -2,7 +2,8 @@ import './Form.css';
 
 const Form = () => {
   return (
-    <form action="" id='contact-form'>
+    <form id='contact-form' action="https://formspree.io/f/meqvnnkb" method="post"
+    >
       <div id="info-block">
         <div id="name">
           <label htmlFor="name">Name: </label>
