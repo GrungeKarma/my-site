@@ -19,11 +19,19 @@
   border-radius: 4px;
   color: var(--eerie-black);
 }
+input#email,
+input#name,
+textarea#message {
+  background-color: rgba(255, 250, 250, 0.879);
+  color: var(--eerie-black);
+}
+textarea#message {
+  resize: none;
+}
 
 #info-block {
   display: flex;
   flex-direction: column;
-
   align-items: center;
 }
 #message {

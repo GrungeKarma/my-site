@@ -25,12 +25,12 @@
 }
 #project-item {
   margin-top: 1em;
-  border-bottom: 3px solid rgba(195, 243, 214, 0.181);
-  border-left: 2px solid rgba(195, 243, 214, 0.181);
+  border-bottom: 3px solid rgba(135, 160, 178, 0.811);
+  border-left: 2px solid rgba(135, 160, 178, 0.811);
 
   background: linear-gradient(
     to bottom left,
-    rgba(195, 243, 214, 0.281),
+    rgba(135, 160, 178, 0.811),
     20%,
     var(--eerie-black)
   );

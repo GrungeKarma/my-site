@@ -9,6 +9,10 @@
   --pewter-blue: #87a0b2ff;
   --eerie-black: #262626ff;
 }
+html {
+  scroll-padding-top: 76px;
+  scroll-padding-bottom: 59px; /* height of sticky header */
+}
 .app {
   background-color: rgba(64, 64, 64, 0.17);
 }
