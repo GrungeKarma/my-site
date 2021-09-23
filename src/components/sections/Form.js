@@ -1,3 +1,4 @@
+import React from 'react';
 import './Form.css';
 
 const Form = () => {
@@ -39,5 +40,5 @@ const Form = () => {
     </form>
 
   );
-}
+};
 export default Form;
