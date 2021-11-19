@@ -42,6 +42,11 @@
     margin: auto;
 }
 
+.last-skill-item {
+    grid-column: 2;
+    margin: auto;
+}
+
 @media (max-width: 961px) {
     #greater-skills-area > * {
         margin: 0 5% 0 5%;

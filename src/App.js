@@ -44,6 +44,7 @@ const skillsArr = [
   { key: Math.random().toString(), item: 'VS Code' },
   { key: Math.random().toString(), item: 'Tailwind CSS' },
   { key: Math.random().toString(), item: 'Yarn' },
+  { key: Math.random().toString(), item: 'Svelte' },
 ];
 
 function App() {
